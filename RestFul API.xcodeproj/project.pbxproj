@@ -8,22 +8,100 @@
 
 /* Begin PBXBuildFile section */
 		31C729C01D83C3D000AEFAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729BF1D83C3D000AEFAAC /* AppDelegate.swift */; };
-		31C729C21D83C3D000AEFAAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729C11D83C3D000AEFAAC /* ViewController.swift */; };
+		31C729C21D83C3D000AEFAAC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729C11D83C3D000AEFAAC /* RegisterViewController.swift */; };
 		31C729C51D83C3D000AEFAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C729C31D83C3D000AEFAAC /* Main.storyboard */; };
 		31C729C81D83C3D000AEFAAC /* RestFul_API.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31C729C61D83C3D000AEFAAC /* RestFul_API.xcdatamodeld */; };
 		31C729CA1D83C3D000AEFAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C729C91D83C3D000AEFAAC /* Assets.xcassets */; };
 		31C729CD1D83C3D000AEFAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C729CB1D83C3D000AEFAAC /* LaunchScreen.storyboard */; };
+		31C729D51D83C65200AEFAAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D41D83C65200AEFAAC /* User.swift */; };
+		31C729DD1D83C82D00AEFAAC /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D61D83C82D00AEFAAC /* HTTPRequestSerializer.swift */; };
+		31C729DE1D83C82D00AEFAAC /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D71D83C82D00AEFAAC /* HTTPResponseSerializer.swift */; };
+		31C729DF1D83C82D00AEFAAC /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D81D83C82D00AEFAAC /* HTTPSecurity.swift */; };
+		31C729E01D83C82D00AEFAAC /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D91D83C82D00AEFAAC /* HTTPStatusCode.swift */; };
+		31C729E11D83C82D00AEFAAC /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729DA1D83C82D00AEFAAC /* HTTPTask.swift */; };
+		31C729E21D83C82D00AEFAAC /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729DB1D83C82D00AEFAAC /* HTTPUpload.swift */; };
+		31C729E31D83C82D00AEFAAC /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729DC1D83C82D00AEFAAC /* JSONJoy.swift */; };
+		31C729E51D83C86900AEFAAC /* AsynUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729E41D83C86900AEFAAC /* AsynUser.swift */; };
+		31C729E71D83C9B400AEFAAC /* IJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729E61D83C9B400AEFAAC /* IJProgressView.swift */; };
+		31C729E91D83CA2E00AEFAAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729E81D83CA2E00AEFAAC /* LoginViewController.swift */; };
+		31C72A101D83D33C00AEFAAC /* Config.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729EC1D83D33B00AEFAAC /* Config.php */; };
+		31C72A111D83D33C00AEFAAC /* DbConnect.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729ED1D83D33B00AEFAAC /* DbConnect.php */; };
+		31C72A121D83D33C00AEFAAC /* DbHandler.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729EE1D83D33B00AEFAAC /* DbHandler.php */; };
+		31C72A131D83D33C00AEFAAC /* PassHash.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729EF1D83D33B00AEFAAC /* PassHash.php */; };
+		31C72A141D83D33C00AEFAAC /* Environment.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729F21D83D33B00AEFAAC /* Environment.php */; };
+		31C72A151D83D33C00AEFAAC /* Pass.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729F41D83D33B00AEFAAC /* Pass.php */; };
+		31C72A161D83D33C00AEFAAC /* Stop.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729F51D83D33B00AEFAAC /* Stop.php */; };
+		31C72A171D83D33C00AEFAAC /* Set.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729F71D83D33B00AEFAAC /* Set.php */; };
+		31C72A181D83D33C00AEFAAC /* Cookies.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729F91D83D33B00AEFAAC /* Cookies.php */; };
+		31C72A191D83D33C00AEFAAC /* Headers.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729FA1D83D33B00AEFAAC /* Headers.php */; };
+		31C72A1A1D83D33C00AEFAAC /* Request.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729FB1D83D33B00AEFAAC /* Request.php */; };
+		31C72A1B1D83D33C00AEFAAC /* Response.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729FC1D83D33B00AEFAAC /* Response.php */; };
+		31C72A1C1D83D33C00AEFAAC /* Util.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729FD1D83D33B00AEFAAC /* Util.php */; };
+		31C72A1D1D83D33C00AEFAAC /* Log.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729FE1D83D33B00AEFAAC /* Log.php */; };
+		31C72A1E1D83D33C00AEFAAC /* LogWriter.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729FF1D83D33B00AEFAAC /* LogWriter.php */; };
+		31C72A1F1D83D33C00AEFAAC /* ContentTypes.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A011D83D33B00AEFAAC /* ContentTypes.php */; };
+		31C72A201D83D33C00AEFAAC /* Flash.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A021D83D33B00AEFAAC /* Flash.php */; };
+		31C72A211D83D33C00AEFAAC /* MethodOverride.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A031D83D33B00AEFAAC /* MethodOverride.php */; };
+		31C72A221D83D33C00AEFAAC /* PrettyExceptions.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A041D83D33B00AEFAAC /* PrettyExceptions.php */; };
+		31C72A231D83D33C00AEFAAC /* SessionCookie.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A051D83D33B00AEFAAC /* SessionCookie.php */; };
+		31C72A241D83D33C00AEFAAC /* Middleware.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A061D83D33B00AEFAAC /* Middleware.php */; };
+		31C72A251D83D33C00AEFAAC /* Route.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A071D83D33B00AEFAAC /* Route.php */; };
+		31C72A261D83D33C00AEFAAC /* Router.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A081D83D33B00AEFAAC /* Router.php */; };
+		31C72A271D83D33C00AEFAAC /* Slim.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A091D83D33B00AEFAAC /* Slim.php */; };
+		31C72A281D83D33C00AEFAAC /* View.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A0A1D83D33B00AEFAAC /* View.php */; };
+		31C72A291D83D33C00AEFAAC /* db_task.sql in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A0C1D83D33B00AEFAAC /* db_task.sql */; };
+		31C72A2A1D83D33C00AEFAAC /* .htaccess in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A0E1D83D33C00AEFAAC /* .htaccess */; };
+		31C72A2B1D83D33C00AEFAAC /* index.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C72A0F1D83D33C00AEFAAC /* index.php */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31C729BC1D83C3D000AEFAAC /* RestFul API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RestFul API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C729BF1D83C3D000AEFAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31C729C11D83C3D000AEFAAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31C729C11D83C3D000AEFAAC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		31C729C41D83C3D000AEFAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31C729C71D83C3D000AEFAAC /* RestFul_API.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestFul_API.xcdatamodel; sourceTree = "<group>"; };
 		31C729C91D83C3D000AEFAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31C729CC1D83C3D000AEFAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31C729CE1D83C3D000AEFAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31C729D41D83C65200AEFAAC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		31C729D61D83C82D00AEFAAC /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
+		31C729D71D83C82D00AEFAAC /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
+		31C729D81D83C82D00AEFAAC /* HTTPSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSecurity.swift; sourceTree = "<group>"; };
+		31C729D91D83C82D00AEFAAC /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		31C729DA1D83C82D00AEFAAC /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		31C729DB1D83C82D00AEFAAC /* HTTPUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
+		31C729DC1D83C82D00AEFAAC /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
+		31C729E41D83C86900AEFAAC /* AsynUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsynUser.swift; sourceTree = "<group>"; };
+		31C729E61D83C9B400AEFAAC /* IJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJProgressView.swift; sourceTree = "<group>"; };
+		31C729E81D83CA2E00AEFAAC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		31C729EC1D83D33B00AEFAAC /* Config.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Config.php; sourceTree = "<group>"; };
+		31C729ED1D83D33B00AEFAAC /* DbConnect.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = DbConnect.php; sourceTree = "<group>"; };
+		31C729EE1D83D33B00AEFAAC /* DbHandler.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = DbHandler.php; sourceTree = "<group>"; };
+		31C729EF1D83D33B00AEFAAC /* PassHash.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = PassHash.php; sourceTree = "<group>"; };
+		31C729F21D83D33B00AEFAAC /* Environment.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Environment.php; sourceTree = "<group>"; };
+		31C729F41D83D33B00AEFAAC /* Pass.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Pass.php; sourceTree = "<group>"; };
+		31C729F51D83D33B00AEFAAC /* Stop.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Stop.php; sourceTree = "<group>"; };
+		31C729F71D83D33B00AEFAAC /* Set.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Set.php; sourceTree = "<group>"; };
+		31C729F91D83D33B00AEFAAC /* Cookies.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Cookies.php; sourceTree = "<group>"; };
+		31C729FA1D83D33B00AEFAAC /* Headers.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Headers.php; sourceTree = "<group>"; };
+		31C729FB1D83D33B00AEFAAC /* Request.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Request.php; sourceTree = "<group>"; };
+		31C729FC1D83D33B00AEFAAC /* Response.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Response.php; sourceTree = "<group>"; };
+		31C729FD1D83D33B00AEFAAC /* Util.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Util.php; sourceTree = "<group>"; };
+		31C729FE1D83D33B00AEFAAC /* Log.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Log.php; sourceTree = "<group>"; };
+		31C729FF1D83D33B00AEFAAC /* LogWriter.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = LogWriter.php; sourceTree = "<group>"; };
+		31C72A011D83D33B00AEFAAC /* ContentTypes.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = ContentTypes.php; sourceTree = "<group>"; };
+		31C72A021D83D33B00AEFAAC /* Flash.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Flash.php; sourceTree = "<group>"; };
+		31C72A031D83D33B00AEFAAC /* MethodOverride.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = MethodOverride.php; sourceTree = "<group>"; };
+		31C72A041D83D33B00AEFAAC /* PrettyExceptions.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = PrettyExceptions.php; sourceTree = "<group>"; };
+		31C72A051D83D33B00AEFAAC /* SessionCookie.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SessionCookie.php; sourceTree = "<group>"; };
+		31C72A061D83D33B00AEFAAC /* Middleware.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Middleware.php; sourceTree = "<group>"; };
+		31C72A071D83D33B00AEFAAC /* Route.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Route.php; sourceTree = "<group>"; };
+		31C72A081D83D33B00AEFAAC /* Router.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Router.php; sourceTree = "<group>"; };
+		31C72A091D83D33B00AEFAAC /* Slim.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Slim.php; sourceTree = "<group>"; };
+		31C72A0A1D83D33B00AEFAAC /* View.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = View.php; sourceTree = "<group>"; };
+		31C72A0C1D83D33B00AEFAAC /* db_task.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = db_task.sql; sourceTree = "<group>"; };
+		31C72A0E1D83D33C00AEFAAC /* .htaccess */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .htaccess; sourceTree = "<group>"; };
+		31C72A0F1D83D33C00AEFAAC /* index.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +118,7 @@
 		31C729B31D83C3CF00AEFAAC = {
 			isa = PBXGroup;
 			children = (
+				31C729EA1D83D33B00AEFAAC /* Web Service */,
 				31C729BE1D83C3D000AEFAAC /* RestFul API */,
 				31C729BD1D83C3D000AEFAAC /* Products */,
 			);
@@ -56,15 +135,134 @@
 		31C729BE1D83C3D000AEFAAC /* RestFul API */ = {
 			isa = PBXGroup;
 			children = (
+				31C729E61D83C9B400AEFAAC /* IJProgressView.swift */,
+				31C729D61D83C82D00AEFAAC /* HTTPRequestSerializer.swift */,
+				31C729D71D83C82D00AEFAAC /* HTTPResponseSerializer.swift */,
+				31C729D81D83C82D00AEFAAC /* HTTPSecurity.swift */,
+				31C729D91D83C82D00AEFAAC /* HTTPStatusCode.swift */,
+				31C729DA1D83C82D00AEFAAC /* HTTPTask.swift */,
+				31C729DB1D83C82D00AEFAAC /* HTTPUpload.swift */,
+				31C729DC1D83C82D00AEFAAC /* JSONJoy.swift */,
 				31C729BF1D83C3D000AEFAAC /* AppDelegate.swift */,
-				31C729C11D83C3D000AEFAAC /* ViewController.swift */,
+				31C729C11D83C3D000AEFAAC /* RegisterViewController.swift */,
 				31C729C31D83C3D000AEFAAC /* Main.storyboard */,
 				31C729C91D83C3D000AEFAAC /* Assets.xcassets */,
 				31C729CB1D83C3D000AEFAAC /* LaunchScreen.storyboard */,
 				31C729CE1D83C3D000AEFAAC /* Info.plist */,
 				31C729C61D83C3D000AEFAAC /* RestFul_API.xcdatamodeld */,
+				31C729D41D83C65200AEFAAC /* User.swift */,
+				31C729E41D83C86900AEFAAC /* AsynUser.swift */,
+				31C729E81D83CA2E00AEFAAC /* LoginViewController.swift */,
 			);
 			path = "RestFul API";
+			sourceTree = "<group>";
+		};
+		31C729EA1D83D33B00AEFAAC /* Web Service */ = {
+			isa = PBXGroup;
+			children = (
+				31C729EB1D83D33B00AEFAAC /* include */,
+				31C729F01D83D33B00AEFAAC /* libs */,
+				31C72A0B1D83D33B00AEFAAC /* MySQL */,
+				31C72A0D1D83D33B00AEFAAC /* v1 */,
+			);
+			name = "Web Service";
+			path = task_manager;
+			sourceTree = "<group>";
+		};
+		31C729EB1D83D33B00AEFAAC /* include */ = {
+			isa = PBXGroup;
+			children = (
+				31C729EC1D83D33B00AEFAAC /* Config.php */,
+				31C729ED1D83D33B00AEFAAC /* DbConnect.php */,
+				31C729EE1D83D33B00AEFAAC /* DbHandler.php */,
+				31C729EF1D83D33B00AEFAAC /* PassHash.php */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		31C729F01D83D33B00AEFAAC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				31C729F11D83D33B00AEFAAC /* Slim */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		31C729F11D83D33B00AEFAAC /* Slim */ = {
+			isa = PBXGroup;
+			children = (
+				31C729F21D83D33B00AEFAAC /* Environment.php */,
+				31C729F31D83D33B00AEFAAC /* Exception */,
+				31C729F61D83D33B00AEFAAC /* Helper */,
+				31C729F81D83D33B00AEFAAC /* Http */,
+				31C729FE1D83D33B00AEFAAC /* Log.php */,
+				31C729FF1D83D33B00AEFAAC /* LogWriter.php */,
+				31C72A001D83D33B00AEFAAC /* Middleware */,
+				31C72A061D83D33B00AEFAAC /* Middleware.php */,
+				31C72A071D83D33B00AEFAAC /* Route.php */,
+				31C72A081D83D33B00AEFAAC /* Router.php */,
+				31C72A091D83D33B00AEFAAC /* Slim.php */,
+				31C72A0A1D83D33B00AEFAAC /* View.php */,
+			);
+			path = Slim;
+			sourceTree = "<group>";
+		};
+		31C729F31D83D33B00AEFAAC /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				31C729F41D83D33B00AEFAAC /* Pass.php */,
+				31C729F51D83D33B00AEFAAC /* Stop.php */,
+			);
+			path = Exception;
+			sourceTree = "<group>";
+		};
+		31C729F61D83D33B00AEFAAC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				31C729F71D83D33B00AEFAAC /* Set.php */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		31C729F81D83D33B00AEFAAC /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				31C729F91D83D33B00AEFAAC /* Cookies.php */,
+				31C729FA1D83D33B00AEFAAC /* Headers.php */,
+				31C729FB1D83D33B00AEFAAC /* Request.php */,
+				31C729FC1D83D33B00AEFAAC /* Response.php */,
+				31C729FD1D83D33B00AEFAAC /* Util.php */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		31C72A001D83D33B00AEFAAC /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				31C72A011D83D33B00AEFAAC /* ContentTypes.php */,
+				31C72A021D83D33B00AEFAAC /* Flash.php */,
+				31C72A031D83D33B00AEFAAC /* MethodOverride.php */,
+				31C72A041D83D33B00AEFAAC /* PrettyExceptions.php */,
+				31C72A051D83D33B00AEFAAC /* SessionCookie.php */,
+			);
+			path = Middleware;
+			sourceTree = "<group>";
+		};
+		31C72A0B1D83D33B00AEFAAC /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				31C72A0C1D83D33B00AEFAAC /* db_task.sql */,
+			);
+			path = MySQL;
+			sourceTree = "<group>";
+		};
+		31C72A0D1D83D33B00AEFAAC /* v1 */ = {
+			isa = PBXGroup;
+			children = (
+				31C72A0E1D83D33C00AEFAAC /* .htaccess */,
+				31C72A0F1D83D33C00AEFAAC /* index.php */,
+			);
+			path = v1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +323,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C72A111D83D33C00AEFAAC /* DbConnect.php in Resources */,
+				31C72A261D83D33C00AEFAAC /* Router.php in Resources */,
+				31C72A201D83D33C00AEFAAC /* Flash.php in Resources */,
+				31C72A271D83D33C00AEFAAC /* Slim.php in Resources */,
 				31C729CD1D83C3D000AEFAAC /* LaunchScreen.storyboard in Resources */,
+				31C72A251D83D33C00AEFAAC /* Route.php in Resources */,
+				31C72A141D83D33C00AEFAAC /* Environment.php in Resources */,
+				31C72A2B1D83D33C00AEFAAC /* index.php in Resources */,
+				31C72A221D83D33C00AEFAAC /* PrettyExceptions.php in Resources */,
+				31C72A151D83D33C00AEFAAC /* Pass.php in Resources */,
+				31C72A131D83D33C00AEFAAC /* PassHash.php in Resources */,
+				31C72A1F1D83D33C00AEFAAC /* ContentTypes.php in Resources */,
 				31C729CA1D83C3D000AEFAAC /* Assets.xcassets in Resources */,
+				31C72A1D1D83D33C00AEFAAC /* Log.php in Resources */,
+				31C72A1A1D83D33C00AEFAAC /* Request.php in Resources */,
+				31C72A1E1D83D33C00AEFAAC /* LogWriter.php in Resources */,
+				31C72A171D83D33C00AEFAAC /* Set.php in Resources */,
+				31C72A1B1D83D33C00AEFAAC /* Response.php in Resources */,
+				31C72A2A1D83D33C00AEFAAC /* .htaccess in Resources */,
+				31C72A161D83D33C00AEFAAC /* Stop.php in Resources */,
+				31C72A291D83D33C00AEFAAC /* db_task.sql in Resources */,
+				31C72A121D83D33C00AEFAAC /* DbHandler.php in Resources */,
+				31C72A231D83D33C00AEFAAC /* SessionCookie.php in Resources */,
+				31C72A101D83D33C00AEFAAC /* Config.php in Resources */,
+				31C72A241D83D33C00AEFAAC /* Middleware.php in Resources */,
+				31C72A1C1D83D33C00AEFAAC /* Util.php in Resources */,
+				31C72A181D83D33C00AEFAAC /* Cookies.php in Resources */,
+				31C72A211D83D33C00AEFAAC /* MethodOverride.php in Resources */,
+				31C72A281D83D33C00AEFAAC /* View.php in Resources */,
 				31C729C51D83C3D000AEFAAC /* Main.storyboard in Resources */,
+				31C72A191D83D33C00AEFAAC /* Headers.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +364,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C729E91D83CA2E00AEFAAC /* LoginViewController.swift in Sources */,
+				31C729D51D83C65200AEFAAC /* User.swift in Sources */,
+				31C729E71D83C9B400AEFAAC /* IJProgressView.swift in Sources */,
 				31C729C81D83C3D000AEFAAC /* RestFul_API.xcdatamodeld in Sources */,
-				31C729C21D83C3D000AEFAAC /* ViewController.swift in Sources */,
+				31C729DF1D83C82D00AEFAAC /* HTTPSecurity.swift in Sources */,
+				31C729E11D83C82D00AEFAAC /* HTTPTask.swift in Sources */,
+				31C729E31D83C82D00AEFAAC /* JSONJoy.swift in Sources */,
+				31C729DE1D83C82D00AEFAAC /* HTTPResponseSerializer.swift in Sources */,
+				31C729DD1D83C82D00AEFAAC /* HTTPRequestSerializer.swift in Sources */,
+				31C729E21D83C82D00AEFAAC /* HTTPUpload.swift in Sources */,
+				31C729C21D83C3D000AEFAAC /* RegisterViewController.swift in Sources */,
+				31C729E01D83C82D00AEFAAC /* HTTPStatusCode.swift in Sources */,
 				31C729C01D83C3D000AEFAAC /* AppDelegate.swift in Sources */,
+				31C729E51D83C86900AEFAAC /* AsynUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
