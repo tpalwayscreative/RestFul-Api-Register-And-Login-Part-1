@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31770A081E054CA600715287 /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31770A001E054CA600715287 /* HTTPSecurity.swift */; };
+		31770A091E054CA600715287 /* IJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31770A011E054CA600715287 /* IJProgressView.swift */; };
+		31770A0A1E054CA600715287 /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31770A021E054CA600715287 /* JSONJoy.swift */; };
+		31770A0B1E054CA600715287 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31770A031E054CA600715287 /* Operation.swift */; };
+		31770A0C1E054CA600715287 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31770A041E054CA600715287 /* Request.swift */; };
+		31770A0D1E054CA600715287 /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31770A051E054CA600715287 /* StatusCode.swift */; };
+		31770A0E1E054CA600715287 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31770A071E054CA600715287 /* Upload.swift */; };
 		31C729C01D83C3D000AEFAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729BF1D83C3D000AEFAAC /* AppDelegate.swift */; };
 		31C729C21D83C3D000AEFAAC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729C11D83C3D000AEFAAC /* RegisterViewController.swift */; };
 		31C729C51D83C3D000AEFAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C729C31D83C3D000AEFAAC /* Main.storyboard */; };
@@ -14,15 +21,7 @@
 		31C729CA1D83C3D000AEFAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C729C91D83C3D000AEFAAC /* Assets.xcassets */; };
 		31C729CD1D83C3D000AEFAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C729CB1D83C3D000AEFAAC /* LaunchScreen.storyboard */; };
 		31C729D51D83C65200AEFAAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D41D83C65200AEFAAC /* User.swift */; };
-		31C729DD1D83C82D00AEFAAC /* HTTPRequestSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D61D83C82D00AEFAAC /* HTTPRequestSerializer.swift */; };
-		31C729DE1D83C82D00AEFAAC /* HTTPResponseSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D71D83C82D00AEFAAC /* HTTPResponseSerializer.swift */; };
-		31C729DF1D83C82D00AEFAAC /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D81D83C82D00AEFAAC /* HTTPSecurity.swift */; };
-		31C729E01D83C82D00AEFAAC /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729D91D83C82D00AEFAAC /* HTTPStatusCode.swift */; };
-		31C729E11D83C82D00AEFAAC /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729DA1D83C82D00AEFAAC /* HTTPTask.swift */; };
-		31C729E21D83C82D00AEFAAC /* HTTPUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729DB1D83C82D00AEFAAC /* HTTPUpload.swift */; };
-		31C729E31D83C82D00AEFAAC /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729DC1D83C82D00AEFAAC /* JSONJoy.swift */; };
 		31C729E51D83C86900AEFAAC /* AsynUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729E41D83C86900AEFAAC /* AsynUser.swift */; };
-		31C729E71D83C9B400AEFAAC /* IJProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729E61D83C9B400AEFAAC /* IJProgressView.swift */; };
 		31C729E91D83CA2E00AEFAAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C729E81D83CA2E00AEFAAC /* LoginViewController.swift */; };
 		31C72A101D83D33C00AEFAAC /* Config.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729EC1D83D33B00AEFAAC /* Config.php */; };
 		31C72A111D83D33C00AEFAAC /* DbConnect.php in Resources */ = {isa = PBXBuildFile; fileRef = 31C729ED1D83D33B00AEFAAC /* DbConnect.php */; };
@@ -55,6 +54,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31770A001E054CA600715287 /* HTTPSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSecurity.swift; sourceTree = "<group>"; };
+		31770A011E054CA600715287 /* IJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJProgressView.swift; sourceTree = "<group>"; };
+		31770A021E054CA600715287 /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
+		31770A031E054CA600715287 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		31770A041E054CA600715287 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		31770A051E054CA600715287 /* StatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusCode.swift; sourceTree = "<group>"; };
+		31770A061E054CA600715287 /* SwiftHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftHTTP.h; sourceTree = "<group>"; };
+		31770A071E054CA600715287 /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
 		31C729BC1D83C3D000AEFAAC /* RestFul API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RestFul API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C729BF1D83C3D000AEFAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31C729C11D83C3D000AEFAAC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
@@ -64,15 +71,7 @@
 		31C729CC1D83C3D000AEFAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31C729CE1D83C3D000AEFAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31C729D41D83C65200AEFAAC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		31C729D61D83C82D00AEFAAC /* HTTPRequestSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequestSerializer.swift; sourceTree = "<group>"; };
-		31C729D71D83C82D00AEFAAC /* HTTPResponseSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseSerializer.swift; sourceTree = "<group>"; };
-		31C729D81D83C82D00AEFAAC /* HTTPSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSecurity.swift; sourceTree = "<group>"; };
-		31C729D91D83C82D00AEFAAC /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
-		31C729DA1D83C82D00AEFAAC /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
-		31C729DB1D83C82D00AEFAAC /* HTTPUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPUpload.swift; sourceTree = "<group>"; };
-		31C729DC1D83C82D00AEFAAC /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
 		31C729E41D83C86900AEFAAC /* AsynUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsynUser.swift; sourceTree = "<group>"; };
-		31C729E61D83C9B400AEFAAC /* IJProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IJProgressView.swift; sourceTree = "<group>"; };
 		31C729E81D83CA2E00AEFAAC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		31C729EC1D83D33B00AEFAAC /* Config.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Config.php; sourceTree = "<group>"; };
 		31C729ED1D83D33B00AEFAAC /* DbConnect.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = DbConnect.php; sourceTree = "<group>"; };
@@ -115,6 +114,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		317709FF1E054C2300715287 /* Source api */ = {
+			isa = PBXGroup;
+			children = (
+				31770A001E054CA600715287 /* HTTPSecurity.swift */,
+				31770A011E054CA600715287 /* IJProgressView.swift */,
+				31770A021E054CA600715287 /* JSONJoy.swift */,
+				31770A031E054CA600715287 /* Operation.swift */,
+				31770A041E054CA600715287 /* Request.swift */,
+				31770A051E054CA600715287 /* StatusCode.swift */,
+				31770A061E054CA600715287 /* SwiftHTTP.h */,
+				31770A071E054CA600715287 /* Upload.swift */,
+			);
+			name = "Source api";
+			sourceTree = "<group>";
+		};
 		31C729B31D83C3CF00AEFAAC = {
 			isa = PBXGroup;
 			children = (
@@ -135,14 +149,7 @@
 		31C729BE1D83C3D000AEFAAC /* RestFul API */ = {
 			isa = PBXGroup;
 			children = (
-				31C729E61D83C9B400AEFAAC /* IJProgressView.swift */,
-				31C729D61D83C82D00AEFAAC /* HTTPRequestSerializer.swift */,
-				31C729D71D83C82D00AEFAAC /* HTTPResponseSerializer.swift */,
-				31C729D81D83C82D00AEFAAC /* HTTPSecurity.swift */,
-				31C729D91D83C82D00AEFAAC /* HTTPStatusCode.swift */,
-				31C729DA1D83C82D00AEFAAC /* HTTPTask.swift */,
-				31C729DB1D83C82D00AEFAAC /* HTTPUpload.swift */,
-				31C729DC1D83C82D00AEFAAC /* JSONJoy.swift */,
+				317709FF1E054C2300715287 /* Source api */,
 				31C729BF1D83C3D000AEFAAC /* AppDelegate.swift */,
 				31C729C11D83C3D000AEFAAC /* RegisterViewController.swift */,
 				31C729C31D83C3D000AEFAAC /* Main.storyboard */,
@@ -297,6 +304,7 @@
 				TargetAttributes = {
 					31C729BB1D83C3D000AEFAAC = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -366,17 +374,16 @@
 			files = (
 				31C729E91D83CA2E00AEFAAC /* LoginViewController.swift in Sources */,
 				31C729D51D83C65200AEFAAC /* User.swift in Sources */,
-				31C729E71D83C9B400AEFAAC /* IJProgressView.swift in Sources */,
+				31770A0D1E054CA600715287 /* StatusCode.swift in Sources */,
+				31770A091E054CA600715287 /* IJProgressView.swift in Sources */,
+				31770A0B1E054CA600715287 /* Operation.swift in Sources */,
+				31770A0C1E054CA600715287 /* Request.swift in Sources */,
+				31770A0E1E054CA600715287 /* Upload.swift in Sources */,
+				31770A081E054CA600715287 /* HTTPSecurity.swift in Sources */,
 				31C729C81D83C3D000AEFAAC /* RestFul_API.xcdatamodeld in Sources */,
-				31C729DF1D83C82D00AEFAAC /* HTTPSecurity.swift in Sources */,
-				31C729E11D83C82D00AEFAAC /* HTTPTask.swift in Sources */,
-				31C729E31D83C82D00AEFAAC /* JSONJoy.swift in Sources */,
-				31C729DE1D83C82D00AEFAAC /* HTTPResponseSerializer.swift in Sources */,
-				31C729DD1D83C82D00AEFAAC /* HTTPRequestSerializer.swift in Sources */,
-				31C729E21D83C82D00AEFAAC /* HTTPUpload.swift in Sources */,
 				31C729C21D83C3D000AEFAAC /* RegisterViewController.swift in Sources */,
-				31C729E01D83C82D00AEFAAC /* HTTPStatusCode.swift in Sources */,
 				31C729C01D83C3D000AEFAAC /* AppDelegate.swift in Sources */,
+				31770A0A1E054CA600715287 /* JSONJoy.swift in Sources */,
 				31C729E51D83C86900AEFAAC /* AsynUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +503,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tpalwaycreative.RestFul-API";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +515,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "tpalwaycreative.RestFul-API";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -529,6 +538,7 @@
 				31C729D31D83C3D000AEFAAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
