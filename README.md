@@ -1,5 +1,5 @@
 # Set up Slime on Apache
-#   <Directory "/var/www/your_domain_name/">
+   <Directory "/var/www/your_domain_name/">
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
